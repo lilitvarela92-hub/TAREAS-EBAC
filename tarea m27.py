@@ -40,10 +40,11 @@ a = 10
 b = 10
 c = 10
 d = 10
-promedio = a + b + c + d / 4
+
+# Se agrega la variable e y se modifica el promedio 
+e = 10
+promedio = a + b + c + d + e/ 4
 print("Promedio:",promedio)
 
 # Como podemos ver, el resultado del promedio no es lo que esperamos, pues deberia salir 10
 # Por lo tanto, es necesario hacer un debugging para saber en que linea del código estamos mal
-
-
