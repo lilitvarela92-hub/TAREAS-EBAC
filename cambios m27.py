@@ -43,7 +43,10 @@ d = 10
 
 # Se agrega la variable e y se modifica el promedio 
 e = 10
-promedio = a + b + c + d + e/ 4
+
+# Se agrega la variable f
+f = 8
+promedio = a + b + c + d + e - f/ 4 
 print("Promedio:",promedio)
 
 # Como podemos ver, el resultado del promedio no es lo que esperamos, pues deberia salir 10
